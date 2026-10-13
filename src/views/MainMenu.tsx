@@ -134,7 +134,7 @@ export function MainMenu({
       </box>
 
       <text style={{ fg: "#55606F", marginTop: 1 }}>
-        ↑/↓ 或鼠标选择 · Enter/单击确认 · 快捷键 N C E D Q
+        {`SQL-TUI ${VERSION} · ↑/↓ 或鼠标选择 · Enter/单击确认 · 快捷键 N C E D Q`}
       </text>
     </box>
   )
