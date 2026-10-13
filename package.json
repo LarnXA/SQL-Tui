@@ -1,0 +1,17 @@
+{
+  "name": "sql-tui",
+  "version": "1.26.2",
+  "type": "module",
+  "bin": {
+    "sql-tui": "src/main.tsx"
+  },
+  "scripts": {
+    "start": "bun run src/main.tsx"
+  },
+  "dependencies": {
+    "@opentui/core": "latest",
+    "@opentui/react": "latest",
+    "mysql2": "^3.11.0",
+    "react": "^19.2.0"
+  }
+}
